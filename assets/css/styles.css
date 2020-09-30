@@ -9,6 +9,9 @@ a, a:hover{
     color: #363636;
     text-decoration: none;
 }
+:focus {
+    outline: none;
+}
 .bg-blanco{
     background-color: white;
     border-bottom: 1px solid #363636;
@@ -60,8 +63,47 @@ a, a:hover{
 .cargo{
     font-weight: 500;
 }
-
-
+.card-img, .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn-principal{
+    border-radius: 0;
+    background: #f7e72a;
+    border-color: #f7e72a;
+    color: #363636;
+    width: 11rem;
+}
+.btn-principal:hover{
+    border-color: #363636;
+    transition: 0.8s;
+}
+.btn-principal a{
+    font-weight: 500;
+}
+.btn-simple{
+    border-radius: 0;
+    background: transparent;
+    border-color: #363636;
+    color: #363636;
+}
+.btn-simple:hover{
+    background: #f7e72a;
+    border-color: #f7e72a;
+    transition: 0.6s;
+}
+.carousel-indicators{
+    position: relative;
+    margin: 10px 0 0;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #373a3C;
+}
 .subir{
     color: #f7e72a;
     padding: 0.5rem;
