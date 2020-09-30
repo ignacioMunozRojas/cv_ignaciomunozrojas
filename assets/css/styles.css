@@ -16,6 +16,9 @@ a, a:hover{
     background-color: white;
     border-bottom: 1px solid #363636;
 }
+.bg-amarillo{
+    background-color: #f7e72a;
+}
 .text-gris{
     color: #363636;
 }
@@ -106,6 +109,9 @@ a, a:hover{
     height: 10px;
     border-radius: 50%;
     background-color: #373a3C;
+}
+.typeform-widget{
+    height: 20rem;
 }
 .subir{
     color: #f7e72a;
