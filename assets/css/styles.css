@@ -2,3 +2,46 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #363636
 }
+p, a, h2, h5{
+    font-weight: 300;
+}
+a, a:hover{
+    color: #363636;
+    text-decoration: none;
+}
+.bg-blanco{
+    background-color: white;
+    border-bottom: 1px solid #363636;
+}
+.text-gris{
+    color: #363636;
+}
+.logo{
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+.logo-mr{
+    font-weight: 700;
+    font-size: 0.65rem;
+    text-shadow: -4px 3px 0 #f7e72a;
+}
+.hero-section {
+    background-image: url('../img/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0rem;
+    position: absolute;
+    min-height: 30rem;
+}
+.titulo-bajo{
+    margin-top: 22rem;
+    text-shadow: 0 0 6px #000000;
+}
+.titulo-nombre{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.titulo-profesion{
+    font-size: 0.85rem;
+    font-weight: 300;
+}
