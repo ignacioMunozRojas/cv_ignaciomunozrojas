@@ -30,11 +30,10 @@ a, a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0rem;
-    position: absolute;
     min-height: 30rem;
+    padding-top: 23rem;
 }
-.titulo-bajo{
-    margin-top: 22rem;
+.sombra{
     text-shadow: 0 0 6px #000000;
 }
 .titulo-nombre{
@@ -44,4 +43,34 @@ a, a:hover{
 .titulo-profesion{
     font-size: 0.85rem;
     font-weight: 300;
+}
+.titulo{
+    text-shadow: -4px 3px 0 #f7e72a;
+}
+.bold{
+    font-weight: 700;
+}
+.no-border{
+    border: none;
+}
+.img-experiencia{
+    margin: 0 auto;
+    width: 7rem;
+}
+.cargo{
+    font-weight: 500;
+}
+
+/*footer*/
+.bg-gris{
+    background-color: #363636;
+}
+.logo-footer{
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+.logo-mr-footer{
+    font-size: 1rem;
+    font-weight: 700;
+    text-shadow: none;
 }
