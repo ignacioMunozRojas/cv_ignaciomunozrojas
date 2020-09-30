@@ -19,6 +19,21 @@ a, a:hover{
 .text-gris{
     color: #363636;
 }
+.espaciado{
+    line-height: 2.5rem;
+}
+.bold{
+    font-weight: 700;
+}
+.no-border{
+    border: none;
+}
+.card-img, .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
 .logo{
     font-weight: 200;
     font-size: 1.2rem;
@@ -29,10 +44,10 @@ a, a:hover{
     text-shadow: -4px 3px 0 #f7e72a;
 }
 .hero-section {
-    background-image: url('../img/bg-1.jpg');
+    background-image: url('../img/desktop.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0rem;
+    background-position: right;
     min-height: 30rem;
     padding-top: 23rem;
 }
@@ -50,24 +65,12 @@ a, a:hover{
 .titulo{
     text-shadow: -4px 3px 0 #f7e72a;
 }
-.bold{
-    font-weight: 700;
-}
-.no-border{
-    border: none;
-}
 .img-experiencia{
     margin: 0 auto;
     width: 7rem;
 }
 .cargo{
     font-weight: 500;
-}
-.card-img, .card-img-top {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
 }
 .btn-principal{
     border-radius: 0;
