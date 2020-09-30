@@ -61,7 +61,15 @@ a, a:hover{
     font-weight: 500;
 }
 
-/*footer*/
+
+.subir{
+    color: #f7e72a;
+    padding: 0.5rem;
+    text-shadow: 0px 0px 2px #1918184f;
+}
+.subir:hover{
+    color: #f7e72a;
+}
 .bg-gris{
     background-color: #363636;
 }
