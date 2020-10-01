@@ -75,6 +75,13 @@ a, a:hover{
 .cargo{
     font-weight: 500;
 }
+.modal-content{
+    border-radius: 0;;
+}
+.modal-header{
+    background-color: #f7e72a;
+    border-radius: 0;;
+}
 .btn-principal{
     border-radius: 0;
     background: #f7e72a;
@@ -99,6 +106,13 @@ a, a:hover{
     background: #f7e72a;
     border-color: #f7e72a;
     transition: 0.6s;
+}
+.btn-trabajo{
+    margin: 0 22%;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
 }
 .carousel-indicators{
     position: relative;
